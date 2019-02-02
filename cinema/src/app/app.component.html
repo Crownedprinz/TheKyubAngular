@@ -1,0 +1,68 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src='../assets/js/modernizr.js'></script>
+<script src='../assets/js/jquery.min.js'></script>
+<script src='../assets/js/jquery.color-RGBa-patch.js'></script>
+<script src='../assets/js/example.js'></script>
+<!-- jQuery -->
+<!-- FlexSlider -->
+  <script defer src="../assets/js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+<div class="header">
+	<div class="header-top">
+		<div class="wrap">
+			<div class="banner-no">
+		  		<img src="../assets/images/banner-no.png" alt=""/>
+		    </div>
+			  <div class="nav-wrap">
+					<ul class="group" id="example-one">
+			           <li><a routerLink="/home" routerLinkActive="active-nav">Home</a></li>
+			           <li class="current_page_item"><a routerLink="/about" routerLinkActive="active-nav">About</a></li>
+			  		   <li><a routerLink="/events" routerLinkActive="active-nav">Movies & Events</a></li>
+			  		   <li><a routerLink="/contact" routerLinkActive="active-nav">Contact</a></li>
+			        </ul>
+			  </div>
+ 			<div class="clear"></div>
+   		</div>
+    </div>
+<div class="block">
+	<div class="wrap">
+		<div class="h-logo">
+			<a routerLink="/home"><img src="../assets/images/logo.png" alt=""/></a>
+		</div>
+        <form action="#" id="reservation-form">
+		       <fieldset>
+		                <div class="field">
+			                 <label>Find a Movie:</label>
+			                  <select class="select2">
+			                    <option>Movie list</option>
+			                  </select>
+			            </div>
+		                <div class="field1">
+			                   <label>Search</label>
+			                  <select class="select1">
+			                    <option>Movies or Actors</option>
+			                  </select>
+		                </div>
+		       </fieldset>
+            </form>
+            <div class="clear"></div>
+   </div>
+</div>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

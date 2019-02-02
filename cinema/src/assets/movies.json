@@ -1,0 +1,46 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "image": "../../assets/images/A dog's way home.jpg",
+            "title": "A dog's way home",
+            "description": "",
+            "show-date": "27-27-2004"
+        },
+        {
+            "id": 2,
+            "image": "../../assets/images/Bohemia Raphsody.jpg",
+            "title": "Bohemia Raphsody",
+            "description": "",
+            "show-date": "27-27-2004"
+        },
+        {
+            "id": 3,
+            "image": "../../assets/images/Brothers.jpg",
+            "title": "Brothers",
+            "description": "",
+            "show-date": "27-27-2004"
+        },
+        {
+            "id": 4,
+            "image": "../../assets/images/Glass.jpg",
+            "title": "Glass",
+            "description": "",
+            "show-date": "27-27-2004"
+        },
+        {
+            "id": 5,
+            "image": "../../assets/images/The favourite.jpg",
+            "title": "The favourite",
+            "description": "",
+            "show-date": "27-27-2004"
+        },
+        {
+            "id": 6,
+            "image": "../../assets/images/Vice.jpg",
+            "title": "Vice",
+            "description": "",
+            "show-date": "27-27-2004"
+        }
+    ]
+}

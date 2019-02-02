@@ -1,0 +1,40 @@
+
+<section class="contents">
+	<div class="day-nav">
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed!
+		<ul class="days">
+			<span class="helper">
+				This week
+			</span>
+			<li><a href="#" class="day" id="sunday">Sunday</a></li>
+			<li><a href="#" class="day" id="monday">Monday</a></li>
+			<li><a href="#" class="day" id="tuesday">Tuesday</a></li>
+			<li><a href="#" class="day" id="wednesday">Wednesday</a></li>
+			<li><a href="#" class="day" id="thursday">Thursday</a></li>
+			<li><a href="#" class="day" id="friday">Friday</a></li>
+			<li><a href="#" class="day" id="saturday">Saturday</a></li>
+		</ul>
+	</div>
+	<div class="movies">
+		<div class="movie" *ngFor="let movie of movies ">
+			<img src="../../assets/images/Brothers.jpg" alt="" class="movie-image">
+			<div class="movie-details-overlay">
+				<div class="movie-title">
+					{{movie.title}}
+				</div>
+				<div class="movie-description">
+					Lorem, ipsum dolor sit amet consectetur
+					 adipis_icing elit. 
+					Quia sunt totam repudiandae 
+					eveniet, aliquid amet facilis commodi 
+				</div>
+				<div class="movie-show-date">
+					Showing <span class="show-date">{{movie.show-date}}</span>
+				</div>
+			</div>
+		</div>
+</div>
+</section>
+<section class="hot-movies">
+	hot movies
+</section>
